@@ -60,7 +60,7 @@ export default function LandingPage(props) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Watch video
+                Entenda
               </Button>
             </GridItem>
           </GridContainer>

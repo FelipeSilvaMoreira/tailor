@@ -52,8 +52,8 @@ export default function HeaderLinks(props) {
       <ListItem className={classes.listItem}>
         <Button
           href="https://google.com"
-          color="transparent"
-          target="danger"
+          color="danger"
+          target="_blank"
           className={classes.navLink}
         >
           {/*<CloudDownload className={classes.icons} />*/} Matricule-se
