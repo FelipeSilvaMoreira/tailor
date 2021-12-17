@@ -8,7 +8,6 @@ import { makeStyles } from "@material-ui/core/styles";
 
 // core components
 import Header from "components/Header/Header.js";
-import Footer from "components/Footer/Footer.js";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Button from "components/CustomButtons/Button.js";
@@ -57,7 +56,7 @@ export default function LandingPage(props) {
               <Button
                 color="danger"
                 size="lg"
-                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ref=creativetim"
+                href="https://google.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -74,7 +73,7 @@ export default function LandingPage(props) {
           <WorkSection />
         </div>
       </div>
-      <Footer />
+      {/*<Footer />*/}
     </div>
   );
 }
