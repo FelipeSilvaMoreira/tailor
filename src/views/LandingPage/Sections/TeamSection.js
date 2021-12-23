@@ -46,10 +46,11 @@ export default function TeamSection() {
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus quis elementum urna. Aenean pellentesque consectetur
-                  pellentesque. Sed id finibus est. Suspendisse mollis nisl
-                  rhoncus nisi scelerisque, at aliquam ipsum cursus.
+                  Empresário graduado em General Studies pela BYU Pathway
+                  Worldwide, possui diversas certificações
+                  profissionais.Graduando em Administração pela Universidade de
+                  Fortaleza, também é estudante de Marriage and family studies
+                  online na Universidade Brigham Young de Idaho.
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
@@ -85,14 +86,14 @@ export default function TeamSection() {
               <h4 className={classes.cardTitle}>
                 Felipe Oliveira
                 <br />
-                <small className={classes.smallTitle}>Designer</small>
+                <small className={classes.smallTitle}>Professor</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus quis elementum urna. Aenean pellentesque consectetur
-                  pellentesque. Sed id finibus est. Suspendisse mollis nisl
-                  rhoncus nisi scelerisque, at aliquam ipsum cursus.
+                  Professor de Inglês desde 2018 e tem se especializado na
+                  teoria de estilos de aprendizagem da Universidade de
+                  Cambridge, através do curso TKT (Teaching Knowledge Test), uma
+                  certificação internacional em ensino de inglês.
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
@@ -119,16 +120,18 @@ export default function TeamSection() {
                 <img src={team3} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Thiagão
+                Thiago Lima
                 <br />
-                <small className={classes.smallTitle}>Modelo</small>
+                <small className={classes.smallTitle}>Professor</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus quis elementum urna. Aenean pellentesque consectetur
-                  pellentesque. Sed id finibus est. Suspendisse mollis nisl
-                  rhoncus nisi scelerisque, at aliquam ipsum cursus.
+                  É graduado em Letras pela Universidade Federal do Ceará e em
+                  General Studies pela BYU Pathway Worldwide, atualmente é
+                  estudante de Business Management na Brigham Young University –
+                  Idaho (online).Tem experiência em ensino de inglês com grupos
+                  pequenos, online, focados no desenvolvimento individual dos
+                  alunos.
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
