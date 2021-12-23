@@ -46,11 +46,13 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>Sua Historia Começa Aqui.</h1>
+              <h1 className={classes.title}>
+                Fluente em inglês com o seu estilo!
+              </h1>
               <h4>
-                Cada jornada tem um começo e a sua começa aqui. Ultrapasse
-                fronteiras aprendendo inglês de uma forma diferente, de uma
-                forma feita pra você.
+                Cada pessoa aprende de uma maneira diferente, por isso, na
+                Tailor English School uma metodologia que ajuda todas as pessoas
+                a aprenderem a falar inglês, de acordo com seu estilo
               </h4>
               <br />
               <Button

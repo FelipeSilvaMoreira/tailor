@@ -21,10 +21,10 @@ export default function WorkSection() {
       <GridContainer justify="center">
         <GridItem cs={12} sm={12} md={8}>
           <h2 className={classes.title}>Contate Nos</h2>
-          <h4 className={classes.description}>
+          {/*<h4 className={classes.description}>
             Um texto aqui muito interesante que esta muito bom, que convida as
             pessoas pra algo.
-          </h4>
+          </h4>*/}
           <form>
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
@@ -58,7 +58,7 @@ export default function WorkSection() {
                 }}
               />
               <GridItem xs={12} sm={12} md={4}>
-                <Button color="primary">Enviar Mensageme</Button>
+                <Button color="primary">Enviar Mensagem</Button>
               </GridItem>
             </GridContainer>
           </form>
