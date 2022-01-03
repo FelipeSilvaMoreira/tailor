@@ -13,7 +13,7 @@ const workStyle = {
     textAlign: "center",
   },
   description: {
-    color: "#999",
+    color: "#737373",
     textAlign: "center",
   },
   textCenter: {

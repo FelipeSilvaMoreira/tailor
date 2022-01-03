@@ -13,7 +13,7 @@ const productStyle = {
     textDecoration: "none",
   },
   description: {
-    color: "#808080",
+    color: "#737373",
   },
 };
 
