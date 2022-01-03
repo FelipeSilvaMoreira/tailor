@@ -21,6 +21,9 @@ import ProductSection from "./Sections/ProductSection.js";
 import TeamSection from "./Sections/TeamSection.js";
 import WorkSection from "./Sections/WorkSection.js";
 
+//Logo
+import Logo from "../../logo_real.svg";
+
 const dashboardRoutes = [];
 
 const useStyles = makeStyles(styles);
@@ -33,7 +36,7 @@ export default function LandingPage(props) {
       <Header
         color="transparent"
         routes={dashboardRoutes}
-        brand="Tailor"
+        brand={<img src={Logo} height={80} width={80} />}
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
@@ -47,7 +50,7 @@ export default function LandingPage(props) {
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
               <h1 className={classes.title}>
-                Fluente em inglês com o seu estilo!
+                Fluente em Inglês com o seu estilo!
               </h1>
               <h4>
                 Cada pessoa aprende de uma maneira diferente, por isso, na
